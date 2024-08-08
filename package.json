@@ -1,0 +1,17 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 6000 chrome.spec.js",
+    "node": "node nodeTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mocha": "^10.7.0",
+    "selenium-webdriver": "^4.23.0"
+  }
+}
